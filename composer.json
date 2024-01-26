@@ -1,0 +1,23 @@
+{
+  "name": "lindesbs/contaodca",
+  "type": "contao-bundle",
+  "description": "contaoDCA - Simplifies DCA development",
+  "license": "MIT",
+  "keywords": ["contao"],
+  "homepage": "http://lindesbs.de",
+  "require": {
+    "php": "^8.2",
+    "contao/core-bundle": "^5.0"
+  },
+  "conflict": {
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "lindesbs\\ContaoDCA\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "lindesbs\\ContaoDCA\\ContaoManager\\Plugin"
+  }
+}
