@@ -1,4 +1,6 @@
-# contaoDCA - stil **Mockup**
+# contaoDCA
+
+still **Mockup**
 
 Manage DCA via a simple class structure
 
